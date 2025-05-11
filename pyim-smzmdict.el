@@ -89,7 +89,7 @@
     (when (file-exists-p file)
       (if (featurep 'pyim)
           (pyim-extra-dicts-add-dict
-           `(:name "smzmdict-elpa" :file ,file :elpa t))
+           `(:name "nmzmdict-elpa" :file ,file :elpa t))
         (message "pyim 没有安装，pyim-nmzmdict 启用失败。")))))
 
 (pyim-scheme-add
