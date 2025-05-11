@@ -77,7 +77,7 @@
    :code-prefix-history ("_")
    :code-split-length 5
    :code-maximum-length 5
-   :prefer-trigger nil))
+   :prefer-triggers nil))
 
 ;;;###autoload
 (defun pyim-nmzmdict-enable ()
@@ -102,7 +102,7 @@
    :code-prefix-history ("_")
    :code-split-length 3
    :code-maximum-length 3
-   :prefer-trigger nil))
+   :prefer-triggers nil))
 
 ;;;###autoload
 (defun pyim-smzmdict-enable ()
